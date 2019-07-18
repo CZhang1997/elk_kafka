@@ -1,0 +1,12 @@
+create a data folder and two folder inside data folder
+change the config server.properties and zookeeper.properties directory field.
+
+cd C:\Develop\kafka_2.12-2.2.0\bin\windows
+
+zookeeper-server-start.bat C:\Develop\kafka_2.12-2.2.0\config\zookeeper.properties
+
+kafka-server-start.bat C:\Develop\kafka_2.12-2.2.0\config\server.properties
+
+C:\Develop\kibana-7.0.1-windows-x86_64\bin\kibana.bat
+
+C:\Develop\elasticsearch-7.0.1\bin\elasticsearch
